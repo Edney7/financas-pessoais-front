@@ -1,11 +1,13 @@
 import React from 'react';
-import Login from './views/login';
+import Routes from "./routes";
+
 
 class App extends React.Component {
   render(){
     return (
       <div>
-        <Login />
+        <Routes/>
+
       </div>
   );
 
